@@ -1,0 +1,10 @@
+name: graficas_sumasRieman
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - matplotlib
+  - numpy
+  - pip
+  - pip:
+      - tkinter
