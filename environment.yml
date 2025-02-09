@@ -1,4 +1,4 @@
-name: graficador-rectangulos
+name: graficas_sumasRieman
 channels:
   - conda-forge
 dependencies:
