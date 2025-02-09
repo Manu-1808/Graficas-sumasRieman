@@ -1,0 +1,6 @@
+#!/bin/bash
+# Instalar Xvfb para simular un entorno gráfico
+apt-get update && apt-get install -y xvfb
+
+# Ejecutar la aplicación con Xvfb
+xvfb-run -a python graficador.py
