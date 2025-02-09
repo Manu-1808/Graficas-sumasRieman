@@ -6,3 +6,13 @@ dependencies:
   - matplotlib
   - numpy
   - tk
+  - xorg-libx11
+  - xorg-libxau
+  - xorg-libxdmcp
+  - xorg-libxext
+  - xorg-libxrender
+  - xorg-libxt
+  - xorg-xauth
+  - xorg-xextproto
+  - xorg-xproto
+  - xvfbwrapper
