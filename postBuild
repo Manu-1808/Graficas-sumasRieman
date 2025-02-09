@@ -1,6 +1,6 @@
 #!/bin/bash
-# Instalar Xvfb para simular un entorno gráfico
-apt-get update && apt-get install -y xvfb
+# Instalar Xvfb usando conda (no requiere permisos de root)
+conda install -c conda-forge xorg-libx11 xorg-libxau xorg-libxdmcp xorg-libxext xorg-libxrender xorg-libxt xorg-xauth xorg-xextproto xorg-xproto xvfbwrapper -y
 
 # Ejecutar la aplicación con Xvfb
 xvfb-run -a python graficador.py
